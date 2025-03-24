@@ -1,0 +1,14 @@
+#Ingresar numeros impares mayores a 18
+
+list_numbers = list()
+
+def add_number():
+    for i in range(10):
+        number = int(input(f"{i+1} de 10 Ingrese un numero: "))
+        if number % 2 != 0 and number > 18:
+            list_numbers.append(number)
+        else:
+            print("El numero ingresado no es impar o es menor a 18")
+
+add_number()
+print(list_numbers)
