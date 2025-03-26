@@ -32,3 +32,22 @@ print(texto)
 
 texto_reemplazado = texto.replace("mi vida", "mi amor")
 print(texto_reemplazado)
+
+#Eliminar espacios en blanco
+texto = "Hola mi vida pookie"
+print(texto)
+texto_sin_espacios = texto.strip()
+print(texto_sin_espacios)
+
+#Formato numero
+numero = 15000000000
+print(numero)
+numero_formato = "{:,}".format(numero)
+print(numero_formato)
+
+#Formato decimal
+numero_decimal = 1500.50
+print(numero_decimal)
+numero_formato = "{:.2f}".format(numero_decimal)
+print(numero_formato)
+
